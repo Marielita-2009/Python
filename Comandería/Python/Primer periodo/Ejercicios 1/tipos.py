@@ -1,0 +1,6 @@
+edad = input ("Ingrese su edad: ")
+altura = input ("Ingrese su altura en metros: ")
+edad_int = int(edad)
+altura_float = float(altura)
+print("Tu edad es: ", edad_int, "y su tipo es: ", type(edad_int))
+print("Tu altura es: ", altura_float, "y su tipo es: ", type(altura_float))
